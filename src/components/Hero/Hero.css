@@ -1,4 +1,8 @@
-/* Hero.css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 .container {
     display: flex;
@@ -9,8 +13,8 @@
 
 .description {
     flex: 1;
-    padding: 0 2rem; /* Adjust padding for smaller screens */
-    text-align: center; /* Center align on smaller screens */
+    padding: 0 2rem; 
+    text-align: center; 
 }
 
 .welcome {
@@ -23,7 +27,7 @@
     font-weight: bold;
     line-height: 1.5;
     font-size: 2em;
-    text-align: center; /* Center align on smaller screens */
+    text-align: center; 
 }
 
 .profile-desc {
@@ -31,28 +35,31 @@
     font-weight: bold;
     line-height: 1.5;
     word-wrap: break-word;
-    text-align: center; /* Center align on smaller screens */
-    font-size: 1.5em; /* Decrease font size for smaller screens */
+    text-align: center; 
+    font-size: 1.5em; 
 }
 
 .desc2 {
     margin-bottom: 2em;
-    text-align: center; /* Center align on smaller screens */
+    text-align: center; 
 }
 
 .buttonclass {
     display: flex;
-    justify-content: center; /* Center align buttons */
-    margin-bottom: 2em; /* Add margin bottom for spacing */
+    justify-content: center; 
+    margin-bottom: 2em; 
 }
-
+.profile-img{
+    margin-right: 10rem;
+}
 .profile-img img {
     width: 100%;
     max-width: 400px;
     height: auto;
     border-radius: 50%;
     object-fit: cover;
-    box-shadow: 0 0 100px rgba(221, 0, 255, 0.608); /* Blue shadow */
+    box-shadow: 0 0 100px rgba(221, 0, 255, 0.608); 
+    
 }
 .socials {
     display: flex;
@@ -65,21 +72,21 @@
 
 .socials a {
     display: inline-block;
-    margin: 0 10px; /* Adjust the margin as needed */
+    margin: 0 10px; 
     transition: transform 0.3s ease, filter 0.3s ease; 
-    box-shadow: 0 0 10px rgba(0, 0, 255, 0); /* Add transition effect for transform and filter properties */
+    box-shadow: 0 0 10px rgba(0, 0, 255, 0); 
 }
 
 .socials a:hover {
-    transform: scale(1.2); /* Increase size on hover */
+    transform: scale(1.2); 
     box-shadow: 0 0 20px rgba(0, 0, 255, 0.5);
-    filter: hue-rotate(180deg); /* Change the hue of the icons on hover */
+    filter: hue-rotate(180deg); 
 }
 
 .socials .linkedin,
 .socials .instagram,
 .socials .discord {
-    font-size: 2em; /* Adjust the size of the icons */
+    font-size: 2em; 
 }
 
 
@@ -87,13 +94,13 @@
     white-space: nowrap;
     background-color: rgb(255, 255, 255); 
     height: 55px;
-    overflow: hidden; /* Hide overflow */
-    width: 100%; /* Set width to fill its container */
+    overflow: hidden; 
+    width: 100%; 
 }
 
 .slider img {
-    width: auto; /* Automatically adjust the width based on the image's aspect ratio */
-    height: 50px; /* Set the height to maintain aspect ratio */
-    margin: 0 50px; /* Add a definite gap between images */
-    vertical-align: middle; /* Align images vertically */
+    width: auto;
+    height: 50px; 
+    margin: 0 50px; 
+    vertical-align: middle; 
 }
