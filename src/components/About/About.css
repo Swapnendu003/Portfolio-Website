@@ -1,0 +1,89 @@
+
+.about{
+    background-image: url('/images/back glow.png'); /* Background image for the about section */
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    flex-direction: row;
+}
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/images/back glow.png'); /* Background image for the about section */
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    height: 100vh; /* Adjust the height as needed */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.image {
+    flex: 1;
+    text-align: center;
+}
+
+.image img {
+    border-radius: 50%;
+    width: 30rem;
+    height: 30rem;
+    object-fit: cover;
+    box-shadow: 0 0 100px rgb(255, 255, 0);
+}
+
+
+.desc {
+    flex: 1;
+    padding: 0 5rem;
+    
+}
+
+.me {
+    margin-bottom: 1rem; 
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.desc h1 {
+    font-size: 2.5rem;  
+    font-weight: bold; 
+    color: #6a0dad; 
+}
+.desc p{
+    margin-bottom: 10px;
+}
+
+.image {
+    flex: 1;
+    padding: 0 5rem;
+    text-align: center;
+    animation: oscillate 2s ease-in-out infinite; /* Oscillation animation */
+   
+}
+
+@keyframes oscillate {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px); /* Move up */
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+

@@ -1,0 +1,99 @@
+/* Hero.css */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.description {
+    flex: 1;
+    padding: 0 2rem; /* Adjust padding for smaller screens */
+    text-align: center; /* Center align on smaller screens */
+}
+
+.welcome {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.name {
+    margin-top: 1rem;
+    font-weight: bold;
+    line-height: 1.5;
+    font-size: 2em;
+    text-align: center; /* Center align on smaller screens */
+}
+
+.profile-desc {
+    color: #007bff;
+    font-weight: bold;
+    line-height: 1.5;
+    word-wrap: break-word;
+    text-align: center; /* Center align on smaller screens */
+    font-size: 1.5em; /* Decrease font size for smaller screens */
+}
+
+.desc2 {
+    margin-bottom: 2em;
+    text-align: center; /* Center align on smaller screens */
+}
+
+.buttonclass {
+    display: flex;
+    justify-content: center; /* Center align buttons */
+    margin-bottom: 2em; /* Add margin bottom for spacing */
+}
+
+.profile-img img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 100px rgba(221, 0, 255, 0.608); /* Blue shadow */
+}
+.socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+    color: #f4f4f4;
+    
+}
+
+.socials a {
+    display: inline-block;
+    margin: 0 10px; /* Adjust the margin as needed */
+    transition: transform 0.3s ease, filter 0.3s ease; 
+    box-shadow: 0 0 10px rgba(0, 0, 255, 0); /* Add transition effect for transform and filter properties */
+}
+
+.socials a:hover {
+    transform: scale(1.2); /* Increase size on hover */
+    box-shadow: 0 0 20px rgba(0, 0, 255, 0.5);
+    filter: hue-rotate(180deg); /* Change the hue of the icons on hover */
+}
+
+.socials .linkedin,
+.socials .instagram,
+.socials .discord {
+    font-size: 2em; /* Adjust the size of the icons */
+}
+
+
+.slider {
+    white-space: nowrap;
+    background-color: rgb(255, 255, 255); 
+    height: 55px;
+    overflow: hidden; /* Hide overflow */
+    width: 100%; /* Set width to fill its container */
+}
+
+.slider img {
+    width: auto; /* Automatically adjust the width based on the image's aspect ratio */
+    height: 50px; /* Set the height to maintain aspect ratio */
+    margin: 0 50px; /* Add a definite gap between images */
+    vertical-align: middle; /* Align images vertically */
+}
