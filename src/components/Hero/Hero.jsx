@@ -51,13 +51,13 @@ const Hero = () => {
                 <div className="profile-img">
                     <img src="images/profile.png" alt="" />
                     <div className="socials">
-                        <a href="https://www.linkedin.com/in/swapnendu-banerjee-7b1a2a1b5/" target="_blank" rel="noreferrer">
+                        <a href="https://www.linkedin.com/in/swapnendu-banerjee-36ba06219/" target="_blank" rel="noreferrer">
                             <ImLinkedin className="linkedin" />
                         </a>
                         <a href="https://www.instagram.com/swapno_banerjee/" target="_blank" rel="noreferrer">
                             <FaInstagramSquare className="instagram" />
                         </a>
-                        <a href="https://discord.com/users/swapnendu#0001" target="_blank" rel="noreferrer">
+                        <a href="https://discord.com/users/swapnendu" target="_blank" rel="noreferrer">
                             <SiDiscord className="discord" />
                         </a>
                         
